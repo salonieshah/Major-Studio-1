@@ -1,0 +1,44 @@
+body{
+  background-color: #171717; 
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family:  "LeagueSpartan";
+  font-size: 72px;
+  margin-top: 4%;
+    }
+h2 {
+  color: white;
+  text-align: center;
+  font-family:  "LeagueSpartan";
+  font-size: 35px;
+  margin-top: 1.5%;
+    }
+    
+text {
+    font-family:  "LeagueSpartan";
+}
+
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url("LeagueSpartan-Bold.otf") format("opentype");
+    }
+    
+#bubbleChart{
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#title{
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  
+}
