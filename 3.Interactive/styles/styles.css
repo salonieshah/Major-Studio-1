@@ -14,23 +14,17 @@ body{
 
 /*Page 1 Header_Body Style*/ 
 
-
-/*article {*/
-/*  position: relative;*/
-/*  z-index: 1;*/
-/*}*/
-
-/*article::before {*/
-/*  content: "";*/
-/*  position: absolute;*/
-/*  top: 0; */
-/*  left: 0;*/
-/*  width: 100%; */
-/*  height: 100%;  */
-/*  opacity: .4; */
-/*  z-index: -1;*/
-/*  background: url("../images/html_images/women.jpg");*/
-/*}*/
+.headerStyle h2{
+  color: #353730;
+  text-align: left;
+  width: 100%;
+  vertical-align: text-bottom;
+  font-size: 6em;
+  margin-top: 4%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  line-height: 1.5em
+}
 
 header {
   width: 100%;
@@ -91,13 +85,17 @@ header {
   margin: 1.5%;
   /*margin-top: 3%;*/
   line-height: 1.8em;
+  width: 80%
 }
 
+
 .explanation{
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: center;
-  padding: 1.5%;
-  margin: 1.5%;
+  padding: 1%;
+  margin: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
   line-height: 2em;
 }
 .highlight{
@@ -272,12 +270,12 @@ path, line {
 }
 
 img{
-  width:85%;
+  width:87%;
   font-family: "LeagueSpartan";
   margin-left: auto;
   margin-right: auto;
 }
-.image1{
+img {
   display: flex;
   justify-content: center; 
   flex-direction: column; 
@@ -291,4 +289,17 @@ img{
    padding:5%, 5%;
    font-family:  "LeagueSpartan";
    color:#353730;
+}
+
+.static .question{
+  font-size: 2em;
+  text-align: center;
+  padding: 1.5%;
+  padding-top: 3%;
+  padding-bottom:0.5%;
+  margin: 1.5%;
+  margin-top: 3%;
+  margin-bottom:0.5%;
+  line-height: 1.8em;
+  width: 95%
 }

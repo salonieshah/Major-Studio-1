@@ -21,6 +21,7 @@ var yAxis = d3.axisLeft()
 // <image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#clip"></image>   
   var defs= svg.append("defs");
     defs.append("pattern")
+      .append("clipPath")
       .attr ("id","picture")
       .attr("width","100%")
       .attr("height","100%")
@@ -50,15 +51,15 @@ var color = d3.scaleOrdinal()
 
 
 //Draw the Ellipse
-// var ellipse = svg.append("ellipse")
-//                         .attr("cx", 1225)
-//                         .attr("cy", 200)
-//                         .attr("rx", 80)
-//                         .attr("ry", 100)
-//                         .style('fill', 'url(#picture)')
-//                         .style('stroke', '#353730')
-//                         .style('stroke-width', '3')
-                        // .attr("id", "mirror");
+var ellipse = svg.append("ellipse")
+                        .attr("cx", 1225)
+                        .attr("cy", 200)
+                        .attr("rx", 80)
+                        .attr("ry", 100)
+                        .style('fill', 'url(#picture)')
+                        .style('stroke', '#353730')
+                        .style('stroke-width', '3')
+                        .attr("id", "mirror");
 
 // Create X and Y force for Visualisation
   var forceXCombine = d3.forceX(width/2).strength(0.05)
