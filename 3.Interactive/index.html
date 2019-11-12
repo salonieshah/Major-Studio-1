@@ -1,36 +1,95 @@
 <html>
 <head>
-    <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
     <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
+    
 </head>
 
 <body>
-    <!--<h1> Portrayal of Women in European Painting Portraits at MET </h1>-->
-    <button id = "visualization"> Female Portraits at MET </button>
-    <button id = "gender"> Segregate by Gender 
-        <button id = "male"> Male Artist 
-        <button id = "female"> Female Artist 
-        <button id = "anonymous"> Anonymous Artist 
-    </button>
-    <button id = "clothing"> Clothing 
-        <button id = "dressed"> Dressed 
-        <button id = "nude"> Nude 
-    </button>
-    <button id = "location"> Subject Location 
-        <button id = "interior"> Interior Backdrop 
-        <button id = "exterior"> Exterior Backdrop 
-        <button id = "unknown"> Unknown Backdrop 
-    </button>
-    <button id = "sight"> Subject Sight 
-        <button id = "looking away"> Looking Away 
-        <button id = "looking at"> Looking At 
-    </button>
-    <button id = "activity"> Subject Activity 
-        <button id = "activity"> Indulged in Activity 
-        <button id = "posing"> Posing 
-    </button>
-    <div id="my_dataviz"></div>
+    <!--<article>-->
+    <!--    Portrayal of Women in European Painting Portraits at MET-->
+    <!--</article>-->
+    
+    <header class="headerStyle">
+        <div>
+            <p>Portrayal of Women in European Painting Portraits at MET</p>
+        </div>
+    </header>
+    
+        <div class="significance">
+            <p class="question">How have women been <span class = "highlight">represented,</span> <span class = "highlight">underrepresented,</span> and <span class = "highlight">misrepresented</span> in European Portrait Paintings?
+            </p>
+            <p class="explanation">
+                This visualization is inspired from article &ldquo;Images of women in European Art&rdquo; from John Berger&rsquo;s book &ldquo;Ways of Seeing&rdquo;. The spectator-owners and painters of most of the European Portraits were males.  The artists were usually commissioned by the wealthy &lsquo;Male&rsquo; to represent idealized version of his loved one.  Therefore a large number of paintings give a skewed perspective of how women were portrayed in art.  
+            </p>
+        </div>
+     
+     <!--<div class="significance">-->
+     <!--       <h1> Female Portraits segregated by Time of Creation </h1>-->
+     <!--       <div id="interactive_visualization"> </div>-->
+     <!--   </div>-->
+        
+    <div class= "menu" >
+        <h1> Female Portraits segregated by 
+            <div class="container">
+              <div class="dropdown" id="text">
+                  <label>...</label>
+                  <span>&nbsp</span>
+                    <label>
+                    <input type="checkbox">
+                    <ul>
+                      <li id = "visualization" val="Time of Creation">Time of Creation</li>
+                      <li id = "gender" val="Artist Gender">Artist Gender</li>
+                      <li id = "clothing" val="Subject Clothing">Subject Clothing</li>
+                      <li id = "location" val="Painting Backdrop">Painting Backdrop</li>
+                      <li id = "sight" val="Subject Eye-sight">Subject Eye-sight</li>
+                      <li id = "activity" val="Subject Activity">Subject Activity</li>
+                    </ul>
+                    </label>
+                </div>
+            </div>
+        </h1>
+        <div id="interactive_visualization"> </div>
+            <svg width="80" height="100">
+                <def>
+                <pattern id="picture" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+                    <image height="1" width="1" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/1.jpg"></image>
+                    
+                </pattern>    
+                </def>
+                <ellipse id="mirror" cx="1225" cy="200" rx="80" ry="100" fill="url(#picture)"/>
+            </svg>
+        </div>
+    
+    <div class="significance">
+        <p class="question">
+            What did we <span class = "highlight"> &nbsp;learn </span>&nbsp;?
+        </p>
+        <p class="answer">
+            87% of women portraits in European Paining departments are painted by male artists.<br>
+            Only 6% portraits are created by female artists, hence a perspective of documentation of women by women is missing. <br>
+            The collection only contains female nudes drawn by male artists. <br>
+            Only 30% of the women subjects are indulged in any sort of activity.<br>
+            65% of women portraits indulged in an activity are looking away from the view.<br>  
+            57% of women portraits looking at the viewer and posing have unknown backgrounds as the documenting the woman was the purpose of the artist.<br>
+            Most of the portraits looking at the viewer are of important or wealthy women of the time. <br>
+          
+        </p>
+    </div> 
+   
+   <div class="static">
+        <p class="question">
+            What if we overlap <span class = "highlight"> &nbsp;all&nbsp;</span> the variables at once to understand the conclusions?
+        </p>
+        <div class="image1">
+            <img src="images/html_images/women_3.svg">
+        </div>
+    </div> 
+    
+  
     <script src="interactive.js"></script>
+    <script src="interactive_1.js"></script>
+    <!--<script src="interactive_2.js"></script>-->
 </body>
 </html>
