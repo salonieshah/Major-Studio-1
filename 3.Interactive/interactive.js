@@ -53,13 +53,23 @@ var color = d3.scaleOrdinal()
 //Draw the Ellipse
 var ellipse = svg.append("ellipse")
                         .attr("cx", 1225)
-                        .attr("cy", 200)
-                        .attr("rx", 80)
+                        .attr("cy", 225)
+                        .attr("rx", 100)
                         .attr("ry", 100)
                         .style('fill', 'url(#picture)')
                         .style('stroke', '#d1d3d4')
                         .style('stroke-width', '2')
                         .attr("id", "mirror");
+
+// var square =  svg.append("rect")
+//                           .attr("x", 1200)
+//                           .attr("y", 100)
+//                           .attr("width", 150)
+//                           .attr("height", 200)
+//                           .style('fill', 'url(#picture)')
+//                           .style('stroke', '#d1d3d4')
+//                           .style('stroke-width', '2')
+//                           .attr("id", "mirror");
 
 
 // Create X and Y force for Visualisation
@@ -377,14 +387,24 @@ var ellipse = svg.append("ellipse")
       // console.log("mouseover on", d['Image'] + '.jpg');
       
      // add image 
+      // var myimage = svg.append('image')
+      //   .attr('xlink:href', d['Image'] + '.jpg')
+      //   .attr('width', 200)
+      //   .attr('height', 200)
+      //   .attr("transform","translate(1175,100)")
+      //   // .attr('clip-path','mirror')
+      //   .style('visibility', 'visible')
+      //   .attr("id", "clip");
+        
       var myimage = svg.append('image')
         .attr('xlink:href', d['Image'] + '.jpg')
-        .attr('width', 200)
-        .attr('height', 200)
-        .attr("transform","translate(1125,100)")
+        .attr('width', 250)
+        .attr('height', 250)
+        .attr("transform","translate(1100,100)")
         // .attr('clip-path','mirror')
         .style('visibility', 'visible')
-        .attr("id", "clip");
+        .attr("id", "clip_1")
+        .style("opacity", "1");
         
       // var mycaption = svg.append('text')
       //   .text( d['Painting_Name'])

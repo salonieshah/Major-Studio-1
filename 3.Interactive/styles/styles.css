@@ -304,10 +304,19 @@ img {
   width: 95%
 }
 
-#clip {
-    clip-path: ellipse(40% 50% at 50% 50%);
-}
+/*#clip {*/
+/*    clip-path: ellipse(40% 50% at 50% 50%);*/
+/*}*/
+
+/*#clip {*/
+/*    clip-path: inset(0% 13% 0% 13%);*/
+/*}*/
+
 
 /*#clip {*/
 /*    clip-path: circle(30% at 50% 50%);*/
 /*}*/
+
+#clip_1 {
+    clip-path: circle(40% at 50% 50%);
+}
