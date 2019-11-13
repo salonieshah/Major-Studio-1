@@ -57,9 +57,10 @@ var ellipse = svg.append("ellipse")
                         .attr("rx", 80)
                         .attr("ry", 100)
                         .style('fill', 'url(#picture)')
-                        .style('stroke', '#353730')
-                        .style('stroke-width', '3')
+                        .style('stroke', '#d1d3d4')
+                        .style('stroke-width', '2')
                         .attr("id", "mirror");
+
 
 // Create X and Y force for Visualisation
   var forceXCombine = d3.forceX(width/2).strength(0.05)
@@ -380,7 +381,7 @@ var ellipse = svg.append("ellipse")
         .attr('xlink:href', d['Image'] + '.jpg')
         .attr('width', 200)
         .attr('height', 200)
-        .attr("transform","translate(1100,100)")
+        .attr("transform","translate(1125,100)")
         // .attr('clip-path','mirror')
         .style('visibility', 'visible')
         .attr("id", "clip");

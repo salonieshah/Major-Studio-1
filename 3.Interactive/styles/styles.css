@@ -30,7 +30,7 @@ header {
   width: 100%;
   height: 100%; 
   padding:5%, 5%;
-  background-image: url("../images/html_images/women_4.svg");
+  background-image: url("../images/html_images/background.svg");
   background-color: #F3F5F0;
   background-repeat: no-repeat; 
   background-attachment: fixed; 
@@ -303,3 +303,11 @@ img {
   line-height: 1.8em;
   width: 95%
 }
+
+#clip {
+    clip-path: ellipse(40% 50% at 50% 50%);
+}
+
+/*#clip {*/
+/*    clip-path: circle(30% at 50% 50%);*/
+/*}*/
