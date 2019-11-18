@@ -35,3 +35,9 @@ The visualization is based on the women portraits in the European Painting Depar
 5. 57% of portraits of women looking at the viewer and posing have unknown backgrounds.</br>
 6. 65% of portraits of women engaged in activity are looking away from the view.</br>
 
+### Methodology </br>
+1. [HTML](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/index.html) to create the webpage. </br> 
+2. [CSS](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/styles/styles.css) to stype the webpage. </br>
+3. [jQuery](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive_1.js) to create the dropdown menu for interactive visualization. </br>
+4. [d3](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive.js) for creating interactive visualization using d3 Bubble Chart and Force Diagram. </br>
+5.
