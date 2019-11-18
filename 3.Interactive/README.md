@@ -40,4 +40,4 @@ The visualization is based on the women portraits in the European Painting Depar
 2. [CSS](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/styles/styles.css) to stype the webpage. </br>
 3. [jQuery](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive_1.js) to create the dropdown menu for interactive visualization. </br>
 4. [d3](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive.js) for creating interactive visualization using d3 Bubble Chart and Force Diagram. </br>
-5.
+5. [Github](https://github.com/salonieshah/Major-Studio-1/tree/master/3.Interactive) for hosting the webpage. </br>
