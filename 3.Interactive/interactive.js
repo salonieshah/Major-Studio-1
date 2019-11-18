@@ -56,7 +56,7 @@ var ellipse = svg.append("ellipse")
                         .attr("cy", 225)
                         .attr("rx", 100)
                         .attr("ry", 100)
-                        .style('fill', 'url(#picture)')
+                        .style('fill', 'none')
                         .style('stroke', '#d1d3d4')
                         .style('stroke-width', '2')
                         .attr("id", "mirror");
