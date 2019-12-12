@@ -41,3 +41,12 @@ The visualization is based on the women portraits in the European Painting Depar
 3. [jQuery](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive_1.js) to create the dropdown menu for interactive visualization. </br>
 4. [d3](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Interactive/interactive.js) for creating interactive visualization using d3 Bubble Chart and Force Diagram. </br>
 5. [Github](https://github.com/salonieshah/Major-Studio-1/tree/master/3.Interactive) for hosting the webpage. </br>
+
+### Exploring the Visualization </br>
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/artist_gender.JPG)
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/painting_backdrop.JPG)
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/subject_activity.JPG)
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/artist_gender.JPG)
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/subject_clothing.jpg)
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/3.Distortion/images/visualization/subject_eyesight.JPG)
+</br>
