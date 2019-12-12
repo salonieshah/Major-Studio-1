@@ -1,0 +1,23 @@
+#main {
+  width: 100%;
+}
+
+#map_container {
+  width: 50%;
+  max-width: 530px;
+  float: left;
+}
+
+#some_content {
+  float: left;
+  padding: 2em;
+}
+
+#show_data {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
