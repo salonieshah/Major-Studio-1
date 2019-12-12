@@ -320,3 +320,7 @@ img {
 #clip_1 {
     clip-path: circle(40% at 50% 50%);
 }
+
+.documentation {
+  padding-left: 5%;
+}
