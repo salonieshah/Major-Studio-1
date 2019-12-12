@@ -1,0 +1,72 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    
+</head>
+
+<body>
+    
+    <header class="headerStyle">
+        <div>
+            <h2> <span class = "highlight">Distortion </span> <br> </h2>
+            <p>Portrayal of Women in European Painting Portraits at the MET</p>
+        </div>
+    </header>
+    
+        <div class="significance">
+            <p class="question">How have women been <span class = "highlight">represented,</span> <span class = "highlight">underrepresented,</span> and <span class = "highlight">misrepresented</span> in European Portrait Paintings?
+            </p>
+            <p class="explanation">
+                This visualization is inspired by the article &ldquo;Images of Women in European Art&rdquo; from John Berger&rsquo;s book &ldquo;Ways of Seeing&rdquo;. The spectator-owners and painters of most of the European Portraits were male.  The artists were usually commissioned by the wealthy male; to represent idealized versions of their loved one. Their perspective has skewed the portrayal of women in a large number of paintings.  
+            </p>
+        </div>
+     
+        
+    <div class= "menu" >
+        <h1> Female Portraits by 
+            <div class="container">
+              <div class="dropdown" id="text">
+                  <label>...</label>
+                  <span>&nbsp</span>
+                    <label>
+                    <input type="checkbox">
+                    <ul>
+                      <li id = "visualization" val="Time of Creation">Time of Creation</li>
+                      <li id = "gender" val="Artist Gender">Artist Gender</li>
+                      <li id = "clothing" val="Subject Clothing">Subject Clothing</li>
+                      <li id = "location" val="Painting Backdrop">Painting Backdrop</li>
+                      <li id = "sight" val="Subject Eye-sight">Subject Eye-sight</li>
+                      <li id = "activity" val="Subject Activity">Subject Activity</li>
+                    </ul>
+                    </label>
+                </div>
+            </div>
+        </h1>
+        <div id="interactive_visualization"> </div>
+    </div>
+    
+    <div class="significance">
+        <p class="question">
+            What did we <span class = "highlight"> &nbsp;learn </span>&nbsp;?
+        </p>
+        <div class="image1">
+            <img src="images/html_images/information_2.svg">
+        </div>
+    </div> 
+   
+   <div class="static">
+        <p class="question">
+            What if we overlap <span class = "highlight"> &nbsp;all&nbsp;</span> the variables at once to understand the conclusions?
+        </p>
+        <div class="image1">
+            <img src="images/html_images/women_1.svg">
+        </div>
+    </div> 
+    
+  
+    <script src="interactive.js"></script>
+    <script src="interactive_1.js"></script>
+</body>
+</html>
