@@ -14,5 +14,13 @@ The visualization explores Portraits of Women from the European Painting Collect
 #### Reading the Visualization
 ![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Legend.JPG)
 <br>
-
-
+#### Conceptual Sketch
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Concept.JPG)
+<br>
+#### Data Analysis
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Process.JPG)
+<br>
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Comparisons.jpg)
+<br>
+![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Understanding_Information.jpg)
+<br>
