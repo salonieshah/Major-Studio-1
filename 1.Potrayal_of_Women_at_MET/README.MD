@@ -20,7 +20,9 @@ The visualization explores Portraits of Women from the European Painting Collect
 #### Data Analysis
 ![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Process.JPG)
 <br>
+#### Conclusion
 ![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Comparisons.jpg)
 <br>
 ![image](https://github.com/salonieshah/Major-Studio-1/blob/master/1.Potrayal_of_Women_at_MET/Images/Understanding_Information.jpg)
 <br>
+### The progress of this visualization is [here](https://github.com/salonieshah/Major-Studio-1/tree/master/3.Distortion)
