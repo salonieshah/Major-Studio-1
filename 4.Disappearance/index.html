@@ -1,21 +1,43 @@
-
-
 <html>
-<head>
-    <!--<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>-->
-    <!--<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>-->
-    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <head>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
     
-</head>
-
-<body>
-    <!--<object id = "main_painting" type="image/svg+xml" data="painting.svg"></object>-->
-    <div id = "main_painting"></div>
-    <div id= "show_data"></div>
-    <script src="interactive.js"></script>
-    <script src="interactive_1.js"></script>
-
-</body>
+    <body>
+        <header>
+            <div id = "cover" class = "fullscreen">
+                <p> <span class = "title"> Disappearance </span> <br>
+                <span class = "subtitle"> by Humans </span>  </p>
+            </div>
+        </header>
+        
+        <!--<div class = "fullscreen">-->
+        <!--    <p class="explanation">-->
+        <!--        According to a report published in the journal Current Biology, 87% of the World&rsquo;s Oceans are Dying.-->
+        <!--    </p>-->
+        <!--</div>-->
+        <div>
+            <div class = "fullscreen">
+                <p class="explanation">
+                    This Visualization explores the contents of painting &ldquo;Ocean Life&rdquo; by James M. Sommerville.
+                </p>
+                <p class = "notes">
+                    Download Artivive App on your Phone or Tablet to experience the visualization. 
+                </p>
+            </div>
+            <a href="#video"> I don't want to download the app. </a>
+        </div>
+        
+        <div class = "fullscreen">
+            <p class = "notes">
+                Open Artivive App and Point the your camera towards the painting.
+            </p>
+            <img src="images/Original_Painting.jpg">
+        </div>
+        
+        <div id = "video" class = "fullscreen">
+           <iframe src="https://player.vimeo.com/video/378455260" width="100%" height="80%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <a href="https://github.com/salonieshah/Major-Studio-1/tree/master/4.Disappearance"> You can find complete documentation of the project here</a>
+        </div>
+    </body>
 </html>

@@ -1,23 +1,98 @@
-#main {
+body{
+  background-color: #F2F2F2;
+}
+
+@font-face {
+    font-family: "SaolText-Bold";
+    src: url("SaolText-Bold.otf") format("opentype");
+    font-size: 1em
+    }
+
+@font-face {
+    font-family: "SaolText-Book";
+    src: url("SaolText-Book.otf") format("opentype");
+    font-size: 1em
+    }
+    
+    
+.fullscreen{
   width: 100%;
+  height: 100%
 }
 
-#map_container {
-  width: 50%;
-  max-width: 530px;
-  float: left;
+.fullscreen{
+  display: flex;
+  justify-content: flex-start; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
 }
 
-#some_content {
-  float: left;
-  padding: 2em;
+
+header {
+  width: 100%;
+  height: 100%; 
+  padding:5%, 5%;
+  background-image: url("../images/abstract.svg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover;
+  margin: none;
 }
 
-#show_data {
-  position: absolute;
-  left: 60%;
-  top: 10%;
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.headerStyle {
+  display: flex;
+  justify-content: flex-start; 
+  flex-direction: row; 
+}
+
+
+.title{
+  font-family:  "SaolText-Bold";
+  font-size: 5em;
+  padding: 5%;
+  padding-bottom: 20%
+}
+
+.subtitle{
+  font-family:  "SaolText-Book";
+  font-size: 2em;
+  padding: 5%;
+  margin-bottom: 10%
+}
+
+
+iframe{
+  padding-top: 5%
+}
+
+.explanation{
+  font-family:  "SaolText-Bold";
+  font-size: 1.5em;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  /*line-height: 3em;*/
+}
+
+.notes{
+  font-size: 1.3em;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  text-align: right;
+  float: right;
+  font-family: "SaolText-Book";
+  padding-top: 1%
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img{
+  height: 90%
 }
