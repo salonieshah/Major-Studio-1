@@ -16,4 +16,7 @@ Open Artivive App and Point the your camera towards the painting below. <br>
 
 If you can't download the app, you can experience the visualization [here](https://vimeo.com/378455260)
 
+### Design
+It attempts to showcase how rapidly ocean creatures are disappearing. 
+
 
