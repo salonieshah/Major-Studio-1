@@ -3,7 +3,7 @@
 ### Portrayal of Women in European Painting Portraits at the MET
 ---------------------------------------------------
 #### Assignment Date: 22th October 2019<br/>
-#### Assignment Due: 19st November 2019 <br/>
+#### Assignment Due: 19th November 2019 <br/>
 -----------------------------------------------------
 
 ### Link to the Visualization is [here](https://salonieshah.github.io/Major-Studio-1/3.Interactive/). </br>
